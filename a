@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Playeras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tienda de Playeras</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Bienvenido a la Tienda de Playeras</h1>
+            <p>Encuentra tu estilo con nuestras exclusivas playeras.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Somos una tienda dedicada a ofrecer las mejores playeras con diseños únicos y materiales de alta calidad.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Nuestros Productos</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="playera1.jpg" alt="Playera 1">
+                <h3>Playera 1</h3>
+                <p>$20.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="playera2.jpg" alt="Playera 2">
+                <h3>Playera 2</h3>
+                <p>$25.00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="playera3.jpg" alt="Playera 3">
+                <h3>Playera 3</h3>
+                <p>$22.00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Playeras. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
